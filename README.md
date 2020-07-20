@@ -15,7 +15,8 @@ Use syntheticCaseGenerate_v3.m to create the three synthetic data sets
 
 See Demo.m to see an example
 
-Ref:
+## Reference:
+
 Zhu L., Walker J., & Shen X., (under review). Stochastic ensemble methods for multi-SAR-mission soil moisture retrieval. Remote Sensing of Environment.
 
 Zhu L., Walker J. Tsang L., Huang H., Ye N., & Rüdiger C., (2019). A multi-frequency framework for soil moisture retrieval from time series radar data. Remote Sensing of Environment , 235, 111433.
