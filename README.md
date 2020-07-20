@@ -13,7 +13,7 @@ Use syntheticCaseGenerate_v3.m to create the three synthetic data sets
 
 ## Soil moisture ensemble retrieval
 
-See Demo.m to see an example
+See Demo.m for an example
 
 ## Reference:
 
