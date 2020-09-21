@@ -9,7 +9,7 @@ https://drive.google.com/drive/folders/11bv9B5ho0v5seUOVGIUIpKk3RKbwS5X6?usp=sha
 
 ## Generate the synthetic data
 
-Use syntheticCaseGenerate_v3.m to create the three synthetic data sets
+Use syntheticCaseGenerate_v3.m to create the three synthetic data sets that used in Zhu et. al. (2020)
 
 ## Soil moisture ensemble retrieval
 
@@ -17,7 +17,7 @@ See Demo.m for an example
 
 ## Reference:
 
-Zhu L., Walker J., & Shen X., (under review). Stochastic ensemble methods for multi-SAR-mission soil moisture retrieval. Remote Sensing of Environment.
+Zhu L., Walker J., & Shen X., (2020). Stochastic ensemble methods for multi-SAR-mission soil moisture retrieval. Remote Sensing of Environment. 251, 112099.
 
 Zhu L., Walker J. Tsang L., Huang H., Ye N., & Rüdiger C., (2019). A multi-frequency framework for soil moisture retrieval from time series radar data. Remote Sensing of Environment , 235, 111433.
 
