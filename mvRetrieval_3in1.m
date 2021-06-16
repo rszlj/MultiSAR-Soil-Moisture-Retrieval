@@ -172,7 +172,7 @@ end
 
 bs=repmat(bs',m,1);
 if dryDown==1
-    [~,sq3]=sort(mv,2,'descend'); %Zhu et al., 2019
+    [sq3]=get_rank(mv); %Zhu et al., 2019
     mvFac=sum(abs(repmat(1:n,m,1)-sq3),2);
     mvFac(mvFac==0)=1;
 else
@@ -214,4 +214,12 @@ for i=1:interpN
     end
 end
 bs=[thh,thv,tvv];
+end
+
+function [sq]=get_rank(mv)
+    [~,sq3]=sort(mv,2,'descend');
+    sq=nan(size(sq3));
+    for i=1:length(sq(:,1))
+        sq(i,sq3(i,:))=1:length(sq3(1,:));
+    end
 end
